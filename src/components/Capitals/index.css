@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.main-bg-conatiner {
+  background-color: #93c5fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.countrycontainer {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: none;
+  width: 95%;
+  padding: 10px;
+}
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .countrycontainer {
+    width: 50%;
+  }
+}
+.droplist {
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 120px;
+  padding: 5px;
+  outline: none;
+  margin-right: 5px;
+}
+.selectedcountrycont {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .selectedcountrycont {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.country {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
